@@ -7,7 +7,7 @@
  *
  * @package Akina
  */
-
+require_once( dirname( __FILE__ ) . '/../../../wp-load.php' );
 ?>
 <html <?php language_attributes();
 add_action('wp_head',function(){
